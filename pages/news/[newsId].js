@@ -8,6 +8,8 @@ function DetailPage() {
     const router = useRouter();
     router.query.newsId;
 
+    //send request to backend API to fetch news item with newsId
+
     return <h1>The details page</h1>
 }
 

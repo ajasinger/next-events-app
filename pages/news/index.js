@@ -10,6 +10,7 @@ function NewsPage() {
             <ul>
                 {/* can also dynamically popluate from array */}
                 <li>
+                    {/* loads component and changes URL without reloading page */}
                     <Link href="/news/article-1">
                         article 1
                     </Link>
